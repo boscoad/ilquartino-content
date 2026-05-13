@@ -1,0 +1,130 @@
+{
+  "id": "explore",
+  "title": "Explore",
+  "backgroundColor": "$colors.background",
+  "statusBar": "dark",
+  "body": [
+    {
+      "type": "section_title",
+      "text": "Component Library",
+      "subtitle": "All available JSON component types"
+    },
+    {
+      "type": "tag_list",
+      "horizontal": true,
+      "tags": [
+        { "id": "hero",          "label": "hero",          "color": "#0066FF" },
+        { "id": "text",          "label": "text",          "color": "#10B981" },
+        { "id": "card",          "label": "card",          "color": "#FF6B35" },
+        { "id": "card_grid",     "label": "card_grid",     "color": "#8B5CF6" },
+        { "id": "list",          "label": "list",          "color": "#EC4899" },
+        { "id": "button",        "label": "button",        "color": "#F59E0B" },
+        { "id": "banner",        "label": "banner",        "color": "#06B6D4" },
+        { "id": "stats_row",     "label": "stats_row",     "color": "#84CC16" },
+        { "id": "section_title", "label": "section_title", "color": "#F43F5E" },
+        { "id": "tag_list",      "label": "tag_list",      "color": "#6366F1" },
+        { "id": "divider",       "label": "divider",       "color": "#9CA3AF" },
+        { "id": "spacer",        "label": "spacer",        "color": "#6B7280" }
+      ]
+    },
+    {
+      "type": "section_title",
+      "text": "Card Grid Example",
+      "subtitle": "card_grid with columns: 2"
+    },
+    {
+      "type": "card_grid",
+      "columns": 2,
+      "items": [
+        {
+          "id": "a",
+          "title": "Bootstrap Layer",
+          "subtitle": "Startup sequence",
+          "badge": "Core",
+          "action": { "type": "navigate", "target": "home" }
+        },
+        {
+          "id": "b",
+          "title": "Renderer Engine",
+          "subtitle": "JSON → Native UI",
+          "badge": "Core",
+          "action": { "type": "navigate", "target": "home" }
+        },
+        {
+          "id": "c",
+          "title": "Cache Manager",
+          "subtitle": "Delta sync + storage",
+          "badge": "Core",
+          "action": { "type": "navigate", "target": "home" }
+        },
+        {
+          "id": "d",
+          "title": "Theme System",
+          "subtitle": "Dynamic tokens",
+          "badge": "Core",
+          "action": { "type": "navigate", "target": "home" }
+        }
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section_title",
+      "text": "Banner Variants"
+    },
+    {
+      "type": "banner",
+      "icon": "ℹ️",
+      "style": "info",
+      "text": "This is an info banner. Use it for tips and neutral messages."
+    },
+    {
+      "type": "banner",
+      "icon": "✅",
+      "style": "success",
+      "text": "Success! Your content synced correctly from the server."
+    },
+    {
+      "type": "banner",
+      "icon": "⚠️",
+      "style": "warning",
+      "text": "Warning: Cache is older than 1 hour. Sync recommended."
+    },
+    {
+      "type": "banner",
+      "icon": "❌",
+      "style": "error",
+      "text": "Error: Failed to reach the content server. Using cached content."
+    },
+    {
+      "type": "section_title",
+      "text": "Button Variants"
+    },
+    {
+      "type": "button",
+      "label": "Primary Button",
+      "style": "primary",
+      "action": { "type": "navigate", "target": "home" }
+    },
+    {
+      "type": "button",
+      "label": "Secondary Button",
+      "style": "secondary",
+      "action": { "type": "navigate", "target": "home" }
+    },
+    {
+      "type": "button",
+      "label": "Outline Button",
+      "style": "outline",
+      "action": { "type": "navigate", "target": "home" }
+    },
+    {
+      "type": "button",
+      "label": "Ghost Button",
+      "style": "ghost",
+      "action": { "type": "navigate", "target": "home" }
+    },
+    { "type": "spacer", "size": 16 }
+  ]
+}

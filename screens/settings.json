@@ -1,0 +1,28 @@
+{
+  "id": "settings",
+  "title": "Settings",
+  "backgroundColor": "$colors.background",
+  "statusBar": "dark",
+  "body": [
+    {
+      "type": "section_title",
+      "text": "Settings"
+    },
+    {
+      "type": "banner",
+      "icon": "🔧",
+      "style": "info",
+      "text": "This screen is loaded as a modal. It was defined in settings.json on the server."
+    },
+    {
+      "type": "list",
+      "items": [
+        { "id": "1", "icon": "🌐", "title": "Content Server",   "subtitle": "github.com/boscoad/dynamic-shell-app" },
+        { "id": "2", "icon": "🔄", "title": "Cache Expiry",     "subtitle": "3600 seconds" },
+        { "id": "3", "icon": "📦", "title": "App Version",      "subtitle": "1.0.0" },
+        { "id": "4", "icon": "🔐", "title": "Hash Verification","subtitle": "Enabled" }
+      ]
+    },
+    { "type": "spacer", "size": 16 }
+  ]
+}

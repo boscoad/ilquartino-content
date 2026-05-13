@@ -1,0 +1,92 @@
+{
+  "id": "home",
+  "title": "Home",
+  "backgroundColor": "$colors.background",
+  "statusBar": "dark",
+  "body": [
+    {
+      "type": "hero",
+      "title": "Dynamic Shell App",
+      "subtitle": "Content powered by your server — update anytime, no release needed.",
+      "backgroundColor": "$colors.primary",
+      "height": 220,
+      "ctaLabel": "Explore Features",
+      "action": { "type": "navigate", "target": "explore" }
+    },
+    {
+      "type": "stats_row",
+      "items": [
+        { "label": "Screens",    "value": "3",      "color": "#0066FF" },
+        { "label": "Components", "value": "12+",    "color": "#10B981" },
+        { "label": "Sync",       "value": "Live",   "color": "#FF6B35" }
+      ]
+    },
+    {
+      "type": "section_title",
+      "text": "Getting Started",
+      "subtitle": "Everything you need to know"
+    },
+    {
+      "type": "banner",
+      "icon": "🚀",
+      "style": "info",
+      "text": "This content was downloaded from your server at app launch. Edit home.json on the server to update this screen instantly."
+    },
+    {
+      "type": "list",
+      "items": [
+        {
+          "id": "1",
+          "icon": "📋",
+          "title": "Server-Driven UI",
+          "subtitle": "All screens defined in JSON",
+          "description": "Every component on every screen is described in a JSON file hosted on your server.",
+          "action": { "type": "navigate", "target": "explore" }
+        },
+        {
+          "id": "2",
+          "icon": "⚡",
+          "title": "Delta Sync",
+          "subtitle": "Only changed files download",
+          "description": "The app compares SHA-256 hashes and only fetches files that have changed since the last sync.",
+          "action": { "type": "navigate", "target": "explore" }
+        },
+        {
+          "id": "3",
+          "icon": "🎨",
+          "title": "Dynamic Theming",
+          "subtitle": "Colors & typography from theme.json",
+          "description": "The entire visual language of the app — colors, fonts, spacing — is controlled by theme.json.",
+          "action": { "type": "navigate", "target": "explore" }
+        },
+        {
+          "id": "4",
+          "icon": "🔐",
+          "title": "Integrity Verified",
+          "subtitle": "SHA-256 hash on every file",
+          "description": "Every downloaded file is verified against its expected hash before being stored in cache.",
+          "action": { "type": "navigate", "target": "explore" }
+        }
+      ]
+    },
+    {
+      "type": "section_title",
+      "text": "Quick Actions"
+    },
+    {
+      "type": "button",
+      "label": "Go to Explore",
+      "style": "primary",
+      "fullWidth": true,
+      "action": { "type": "navigate", "target": "explore" }
+    },
+    {
+      "type": "button",
+      "label": "View Profile",
+      "style": "outline",
+      "fullWidth": true,
+      "action": { "type": "navigate", "target": "profile" }
+    },
+    { "type": "spacer", "size": 16 }
+  ]
+}

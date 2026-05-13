@@ -1,0 +1,46 @@
+{
+  "version": "2026-05-07-v1",
+  "generatedAt": "2026-05-07T04:51:04.222Z",
+  "minAppVersion": "1.0.0",
+  "cacheMaxAgeSeconds": 3600,
+  "forceRefresh": false,
+  "contentBaseUrl": "https://raw.githubusercontent.com/boscoad/dynamic-shell-app-content/main",
+  "files": [
+    {
+      "id": "config_navigation",
+      "path": "config/navigation.json",
+      "hash": "8e48e8dbdb74ce3d930071c6523cbf206dce90f2c47d9994b6669c57ac44d5c2",
+      "sizeBytes": 382
+    },
+    {
+      "id": "config_theme",
+      "path": "config/theme.json",
+      "hash": "1cfa2aea923855df95ee547f02cef0d217ecee4ee984793cd3d6ab5dcf288efc",
+      "sizeBytes": 912
+    },
+    {
+      "id": "screen_explore",
+      "path": "screens/explore.json",
+      "hash": "78b6f0be7e00adc587a0699669068d97309e318f36e62101640119d8602d4984",
+      "sizeBytes": 3846
+    },
+    {
+      "id": "screen_home",
+      "path": "screens/home.json",
+      "hash": "de90d01534b29c05427ce2cd808d2b369573dceafb7f121ef6f020ef1d121e77",
+      "sizeBytes": 2980
+    },
+    {
+      "id": "screen_profile",
+      "path": "screens/profile.json",
+      "hash": "59900af0b6f6929472354edfb457fd7b32877b72802ac40b2c96e66655af1b23",
+      "sizeBytes": 2405
+    },
+    {
+      "id": "screen_settings",
+      "path": "screens/settings.json",
+      "hash": "f30127d501a65e9f5943ce5b4c3eba783856c86aa1c3fb9ac4d92d66b0f43446",
+      "sizeBytes": 869
+    }
+  ]
+}
