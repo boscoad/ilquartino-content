@@ -1,92 +1,160 @@
 {
   "id": "home",
-  "title": "Home",
+  "title": "Vino Italiano",
   "backgroundColor": "$colors.background",
   "statusBar": "dark",
   "body": [
     {
       "type": "hero",
-      "title": "Dynamic Shell App",
-      "subtitle": "Content powered by your server — update anytime, no release needed.",
-      "backgroundColor": "$colors.primary",
-      "height": 220,
-      "ctaLabel": "Explore Features",
-      "action": { "type": "navigate", "target": "explore" }
-    },
-    {
-      "type": "stats_row",
-      "items": [
-        { "label": "Screens",    "value": "3",      "color": "#0066FF" },
-        { "label": "Components", "value": "12+",    "color": "#10B981" },
-        { "label": "Sync",       "value": "Live",   "color": "#FF6B35" }
-      ]
+      "title": "Vino Italiano",
+      "subtitle": "Le ultime notizie dal mondo del vino",
+      "backgroundColor": "#722F37",
+      "height": 180
     },
     {
       "type": "section_title",
-      "text": "Getting Started",
-      "subtitle": "Everything you need to know"
+      "text": "Ultime Notizie",
+      "subtitle": "12 maggio 2026"
     },
     {
-      "type": "banner",
-      "icon": "🚀",
-      "style": "info",
-      "text": "This content was downloaded from your server at app launch. Edit home.json on the server to update this screen instantly."
+      "type": "card",
+      "title": "Chianti Classico a Castellina in Chianti: forse non un vino \"bello\" ma sicuramente un vino buono!",
+      "subtitle": "WineSurf · ieri",
+      "description": "Il Chianti Classico dell'UGA Castellina trova la sua identità territoriale in una maratona di degustazioni con quasi 30 vini e tutti i produttori locali.",
+      "imageUrl": "https://www.winesurf.it/wp-content/uploads/2026/05/castellina-1-945x390.jpg",
+      "badge": "WineSurf",
+      "badgeColor": "#722F37",
+      "action": { "type": "open_url", "url": "https://www.winesurf.it/chianti-classico-a-castellina-in-chianti-forse-non-un-vino-bello-ma-sicuramente-un-vino-buono/" }
     },
     {
       "type": "list",
+      "separator": true,
       "items": [
         {
           "id": "1",
-          "icon": "📋",
-          "title": "Server-Driven UI",
-          "subtitle": "All screens defined in JSON",
-          "description": "Every component on every screen is described in a JSON file hosted on your server.",
-          "action": { "type": "navigate", "target": "explore" }
+          "title": "La liaison tra vino & arte, su cui sempre più cantine investono, evolve nel collezionismo",
+          "subtitle": "WineNews · ieri",
+          "description": "La cantina Farina Wines in Valpolicella trasforma il progetto 'Art Ferment' in una collezione permanente con la mostra di Federico Ferrarini.",
+          "imageUrl": "https://static.winenews.it/2024/07/FarinaArte5-300x300.jpg",
+          "badge": "WineNews",
+          "action": { "type": "open_url", "url": "https://winenews.it/it/la-liaison-tra-vino-arte-su-cui-sempre-piu-cantine-investono-evolve-nel-collezionismo_590660/" }
         },
         {
           "id": "2",
-          "icon": "⚡",
-          "title": "Delta Sync",
-          "subtitle": "Only changed files download",
-          "description": "The app compares SHA-256 hashes and only fetches files that have changed since the last sync.",
-          "action": { "type": "navigate", "target": "explore" }
+          "title": "La \"Dieta Mediterranea\" ed il vino, tra salute, cultura e misura, per guardare al futuro",
+          "subtitle": "WineNews · ieri",
+          "description": "Medici e ricercatori si confrontano sul ruolo del vino nella Dieta Mediterranea alla Villa Medicea La Ferdinanda di Tenuta di Artimino.",
+          "imageUrl": "https://static.winenews.it/2026/05/TenutaDiArtimino_LaFerdinandaentrance-300x300.jpg",
+          "badge": "WineNews",
+          "action": { "type": "open_url", "url": "https://winenews.it/it/la-dieta-mediterranea-ed-il-vino-tra-salute-cultura-e-misura-per-guardare-al-futuro_590670/" }
         },
         {
           "id": "3",
-          "icon": "🎨",
-          "title": "Dynamic Theming",
-          "subtitle": "Colors & typography from theme.json",
-          "description": "The entire visual language of the app — colors, fonts, spacing — is controlled by theme.json.",
-          "action": { "type": "navigate", "target": "explore" }
+          "title": "\"Cantina Italia\", le giacenze di vino si mantengono alte: ad aprile 2026 +5,6% sul 2025",
+          "subtitle": "WineNews · ieri",
+          "description": "Le giacenze di vino italiane restano elevate ad aprile 2026 con 52,5 milioni di ettolitri, +5,6% rispetto allo stesso periodo del 2025.",
+          "imageUrl": "https://static.winenews.it/2026/05/BottiDepositphotos-300x300.jpg",
+          "badge": "WineNews",
+          "action": { "type": "open_url", "url": "https://winenews.it/it/cantina-italia-le-giacenze-di-vino-si-mantengono-alte-ad-aprile-2026-56-sul-2025_590657/" }
         },
         {
           "id": "4",
-          "icon": "🔐",
-          "title": "Integrity Verified",
-          "subtitle": "SHA-256 hash on every file",
-          "description": "Every downloaded file is verified against its expected hash before being stored in cache.",
-          "action": { "type": "navigate", "target": "explore" }
+          "title": "Alcol in Italia: dati ISS 2026, consumi in aumento e limiti delle politiche",
+          "subtitle": "Intravino · ieri",
+          "description": "Il nuovo rapporto ISS rivela che i consumi di alcol in Italia non diminuiscono e i comportamenti a rischio si trasformano in modo sempre più preoccupante.",
+          "imageUrl": "https://placehold.co/600x400/722F37/FFFFFF/png?text=🍷+Vino+Italiano",
+          "badge": "Intravino",
+          "action": { "type": "open_url", "url": "https://www.intravino.com/primo-piano/focus-il-rapporto-dellistituto-superiore-di-sanita-ha-un-punto-cruciale-che-non-regge" }
+        },
+        {
+          "id": "5",
+          "title": "Trova le differenze (3): Verdicchio dei Castelli di Jesi e Verdicchio di Matelica",
+          "subtitle": "Civiltà del bere · ieri",
+          "description": "Un confronto tra Verdicchio dei Castelli di Jesi e Verdicchio di Matelica, due espressioni quasi antitetiche della stessa uva marchigiana.",
+          "imageUrl": "https://www.civiltadelbere.com/wp-content/uploads/2026/05/Verdicchio_2_Differenze_Apertura-articolo.png",
+          "badge": "CivBere",
+          "action": { "type": "open_url", "url": "https://www.civiltadelbere.com/trova-le-differenze-3-verdicchio-dei-castelli-di-jesi-e-verdicchio-di-matelica/" }
+        },
+        {
+          "id": "6",
+          "title": "Gallo Nero uno e plurale",
+          "subtitle": "Civiltà del bere · 2 giorni fa",
+          "description": "Daniele Cernilli e Paolo De Cristofaro spiegano le Unità Geografiche Aggiuntive del Chianti Classico e il loro significato per il territorio.",
+          "imageUrl": "https://placehold.co/600x400/722F37/FFFFFF/png?text=🍷+Vino+Italiano",
+          "badge": "CivBere",
+          "action": { "type": "open_url", "url": "https://www.civiltadelbere.com/gallo-nero-uno-e-plurale/" }
+        },
+        {
+          "id": "7",
+          "title": "Tra fine wines, esclusività e bespoke experiences: in Costa Smeralda, dove il lusso è senza tempo",
+          "subtitle": "WineNews · 3 giorni fa",
+          "description": "Il 'Porto Cervo Wine & Food Festival' inaugura la stagione della Costa Smeralda con fine wines, esperienze su misura e il jet set internazionale.",
+          "imageUrl": "https://static.winenews.it/2026/05/2-950x425.jpg",
+          "badge": "WineNews",
+          "action": { "type": "open_url", "url": "https://winenews.it/it/tra-fine-wines-esclusivita-e-bespoke-experiences-in-costa-smeralda-dove-il-lusso-e-senza-tempo_590643/" }
+        },
+        {
+          "id": "8",
+          "title": "Il World Tour del Gambero Rosso riscrive le rotte del vino italiano: ecco le nuove tappe",
+          "subtitle": "Gambero Rosso · 28 apr 2026",
+          "description": "Il Gambero Rosso World Tour 2026/2027 tocca circa 30 città nel mondo tra mercati strategici e nuove destinazioni, con focus rinnovato su India e Africa.",
+          "imageUrl": "https://placehold.co/600x400/722F37/FFFFFF/png?text=🍷+Vino+Italiano",
+          "badge": "G. Rosso",
+          "action": { "type": "open_url", "url": "https://www.gamberorosso.it/notizie/attualita/il-world-tour-gambero-rosso-2027/" }
+        },
+        {
+          "id": "9",
+          "title": "Cantine Aperte 2026: a maggio l'enoturismo protagonista in tutta Italia",
+          "subtitle": "Doctor Wine · 28 apr 2026",
+          "description": "Cantine Aperte 2026 rinnova il format con un focus sull'enoturismo contemporaneo, presentando nuove esperienze che vanno oltre la semplice degustazione.",
+          "imageUrl": "https://placehold.co/600x400/722F37/FFFFFF/png?text=🍷+Vino+Italiano",
+          "badge": "DocWine",
+          "action": { "type": "open_url", "url": "https://www.doctorwine.wine/event/in-tutta-italia-cantine-aperte-2026/" }
+        },
+        {
+          "id": "10",
+          "title": "Ci sono (almeno) 3 questioni che il Vinitaly 2027 non potrà eludere",
+          "subtitle": "Intravino · 21 apr 2026",
+          "description": "Tre questioni irrisolte del Vinitaly 2026 che la prossima edizione dovrà affrontare: costi d'ingresso, assenza dei ristoratori e format dell'ultimo giorno.",
+          "imageUrl": "https://placehold.co/600x400/722F37/FFFFFF/png?text=🍷+Vino+Italiano",
+          "badge": "Intravino",
+          "action": { "type": "open_url", "url": "https://www.intravino.com/primo-piano/ci-sono-almeno-3-questioni-che-il-vinitaly-2027-non-potra-eludere/" }
+        },
+        {
+          "id": "11",
+          "title": "Il Vinitaly 2026 visto dall'Antica Bottega del Vino di Verona (è qualcosa di unico al mondo)",
+          "subtitle": "Intravino · 21 apr 2026",
+          "description": "Un racconto dell'atmosfera unica dell'Antica Bottega del Vino di Verona durante i giorni del Vinitaly 2026, tra grandi vini, emozioni e storie di produttori.",
+          "imageUrl": "https://placehold.co/600x400/722F37/FFFFFF/png?text=🍷+Vino+Italiano",
+          "badge": "Intravino",
+          "action": { "type": "open_url", "url": "https://www.intravino.com/primo-piano/il-vinitaly-2026-visto-dallantica-bottega-del-vino-di-verona-e-qualcosa-di-unico-al-mondo/" }
+        },
+        {
+          "id": "12",
+          "title": "Consorzio Vini Alto Adige: le strategie per continuare a crescere",
+          "subtitle": "Civiltà del bere · 18 apr 2026",
+          "description": "Il presidente del Consorzio Vini Alto Adige Andreas Kofler illustra le strategie su enoturismo, modello cooperativo e Uga per valorizzare la regione alpina.",
+          "imageUrl": "https://placehold.co/600x400/722F37/FFFFFF/png?text=🍷+Vino+Italiano",
+          "badge": "CivBere",
+          "action": { "type": "open_url", "url": "https://www.civiltadelbere.com/consorzio-vini-alto-adige-le-strategie-per-continuare-a-crescere/" }
+        },
+        {
+          "id": "13",
+          "title": "Esportazioni italiane di vino per regione e tipologia – aggiornamento 2025",
+          "subtitle": "I Numeri del Vino · 5 mag 2026",
+          "description": "L'export di vino italiano cala del 4% a 7,779 miliardi nel 2025: il Veneto tiene grazie al Prosecco, mentre soffrono Toscana e Trentino Alto Adige.",
+          "imageUrl": "https://placehold.co/600x400/722F37/FFFFFF/png?text=🍷+Vino+Italiano",
+          "badge": "Numeri Vino",
+          "action": { "type": "open_url", "url": "https://www.inumeridelvino.it/2026/05/esportazioni-italiane-di-vino-per-regione-e-tipologia-aggiornamento-2025.html" }
         }
       ]
     },
     {
-      "type": "section_title",
-      "text": "Quick Actions"
+      "type": "banner",
+      "icon": "🍷",
+      "style": "info",
+      "text": "Contenuti aggiornati automaticamente dalle principali testate italiane del vino."
     },
-    {
-      "type": "button",
-      "label": "Go to Explore",
-      "style": "primary",
-      "fullWidth": true,
-      "action": { "type": "navigate", "target": "explore" }
-    },
-    {
-      "type": "button",
-      "label": "View Profile",
-      "style": "outline",
-      "fullWidth": true,
-      "action": { "type": "navigate", "target": "profile" }
-    },
-    { "type": "spacer", "size": 16 }
+    { "type": "spacer", "size": 24 }
   ]
 }
