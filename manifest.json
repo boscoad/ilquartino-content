@@ -1,6 +1,6 @@
 {
-  "version": "2026-05-07-v1",
-  "generatedAt": "2026-05-07T04:51:04.222Z",
+  "version": "2026-05-14-v1",
+  "generatedAt": "2026-05-14T11:45:39.489Z",
   "minAppVersion": "1.0.0",
   "cacheMaxAgeSeconds": 3600,
   "forceRefresh": false,
@@ -9,38 +9,38 @@
     {
       "id": "config_navigation",
       "path": "config/navigation.json",
-      "hash": "8e48e8dbdb74ce3d930071c6523cbf206dce90f2c47d9994b6669c57ac44d5c2",
-      "sizeBytes": 382
+      "hash": "e88264a6fe868406676ac06445ea8b436075463b0019669a0b5d9b08f9fd204f",
+      "sizeBytes": 394
     },
     {
       "id": "config_theme",
       "path": "config/theme.json",
-      "hash": "1cfa2aea923855df95ee547f02cef0d217ecee4ee984793cd3d6ab5dcf288efc",
-      "sizeBytes": 912
+      "hash": "9090ab690b0d85c6a99785c1ab9660bff833a309bc39bd5ce7209a5ad233b08f",
+      "sizeBytes": 937
     },
     {
       "id": "screen_explore",
       "path": "screens/explore.json",
-      "hash": "78b6f0be7e00adc587a0699669068d97309e318f36e62101640119d8602d4984",
-      "sizeBytes": 3846
+      "hash": "68d1a04919a640562698c21c9e2b7803b9d07a153b812365542fcc9ead17fe4f",
+      "sizeBytes": 3976
     },
     {
       "id": "screen_home",
       "path": "screens/home.json",
-      "hash": "de90d01534b29c05427ce2cd808d2b369573dceafb7f121ef6f020ef1d121e77",
-      "sizeBytes": 2980
+      "hash": "8f47787f23eedf45513fd78ffb4967dbebacb31db06a3a4b6bafb13dced129f2",
+      "sizeBytes": 3072
     },
     {
       "id": "screen_profile",
       "path": "screens/profile.json",
-      "hash": "59900af0b6f6929472354edfb457fd7b32877b72802ac40b2c96e66655af1b23",
-      "sizeBytes": 2405
+      "hash": "4d8734a9b665dc4cfbe5a9feefb8e3c25e985bac677d5996cc18d1f6c616a904",
+      "sizeBytes": 2477
     },
     {
       "id": "screen_settings",
       "path": "screens/settings.json",
-      "hash": "f30127d501a65e9f5943ce5b4c3eba783856c86aa1c3fb9ac4d92d66b0f43446",
-      "sizeBytes": 869
+      "hash": "9b0ac3055f241445ae90b5c742447f333e197286028b71739bd5889f055d3349",
+      "sizeBytes": 897
     }
   ]
 }
