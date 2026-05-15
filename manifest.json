@@ -1,6 +1,6 @@
 {
   "version": "2026-05-15-v1",
-  "generatedAt": "2026-05-15T07:09:12.957Z",
+  "generatedAt": "2026-05-15T07:25:38.348Z",
   "minAppVersion": "1.0.0",
   "cacheMaxAgeSeconds": 3600,
   "forceRefresh": false,
@@ -9,8 +9,8 @@
     {
       "id": "config_navigation",
       "path": "config/navigation.json",
-      "hash": "e88264a6fe868406676ac06445ea8b436075463b0019669a0b5d9b08f9fd204f",
-      "sizeBytes": 394
+      "hash": "cc030e0fe25a0b5c717e668c645f5a2abd69edcbc8531f4243eff835db32ce53",
+      "sizeBytes": 153
     },
     {
       "id": "config_theme",
@@ -19,28 +19,10 @@
       "sizeBytes": 937
     },
     {
-      "id": "screen_explore",
-      "path": "screens/explore.json",
-      "hash": "68d1a04919a640562698c21c9e2b7803b9d07a153b812365542fcc9ead17fe4f",
-      "sizeBytes": 3976
-    },
-    {
       "id": "screen_home",
       "path": "screens/home.json",
       "hash": "596e4723b6a851b7e142b5ef8d35a2f3e1dad0edabcbe8fc98cbfadcfe736fd5",
       "sizeBytes": 10078
-    },
-    {
-      "id": "screen_profile",
-      "path": "screens/profile.json",
-      "hash": "4d8734a9b665dc4cfbe5a9feefb8e3c25e985bac677d5996cc18d1f6c616a904",
-      "sizeBytes": 2477
-    },
-    {
-      "id": "screen_settings",
-      "path": "screens/settings.json",
-      "hash": "9b0ac3055f241445ae90b5c742447f333e197286028b71739bd5889f055d3349",
-      "sizeBytes": 897
     }
   ]
 }
