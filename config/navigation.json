@@ -2,11 +2,6 @@
   "type": "tab_bar",
   "position": "bottom",
   "tabs": [
-    { "id": "home",    "label": "Home",    "icon": "home",    "screen": "home" },
-    { "id": "explore", "label": "Explore", "icon": "grid",    "screen": "explore" },
-    { "id": "profile", "label": "Profile", "icon": "person",  "screen": "profile" }
-  ],
-  "modals": [
-    { "id": "settings", "screen": "settings" }
+    { "id": "home",    "label": "Home",    "icon": "home",    "screen": "home" }
   ]
 }
