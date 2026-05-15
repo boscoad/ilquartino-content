@@ -1,10 +1,10 @@
 {
-  "version": "2026-05-14-v1",
-  "generatedAt": "2026-05-14T11:45:39.489Z",
+  "version": "2026-05-15-v1",
+  "generatedAt": "2026-05-15T07:09:12.957Z",
   "minAppVersion": "1.0.0",
   "cacheMaxAgeSeconds": 3600,
   "forceRefresh": false,
-  "contentBaseUrl": "https://raw.githubusercontent.com/boscoad/dynamic-shell-app-content/main",
+  "contentBaseUrl": "https://raw.githubusercontent.com/boscoad/ilquartino-content/main",
   "files": [
     {
       "id": "config_navigation",
@@ -27,8 +27,8 @@
     {
       "id": "screen_home",
       "path": "screens/home.json",
-      "hash": "8f47787f23eedf45513fd78ffb4967dbebacb31db06a3a4b6bafb13dced129f2",
-      "sizeBytes": 3072
+      "hash": "596e4723b6a851b7e142b5ef8d35a2f3e1dad0edabcbe8fc98cbfadcfe736fd5",
+      "sizeBytes": 10078
     },
     {
       "id": "screen_profile",
